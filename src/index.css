@@ -32,11 +32,15 @@ html {
     display: none;
 }
 
+/* BACKGROUND  */
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./assets/cool-background.png);
+    background-image: url(./assets/bg4kfn.svg);
+    background-repeat: no-repeat;
     margin-bottom: 600vh;
 }
