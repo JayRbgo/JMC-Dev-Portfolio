@@ -1,7 +1,9 @@
 import React from 'react'
 import "./about.css"
 import ME from '../../assets/me.jpg'
-import {CgAwards} from 'react-icons'
+import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -19,24 +21,27 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-            <CgAwards className='about__icon'/>
+            <FaAward className='about__icon'/>
               <h5>Experience</h5>
               <small>1 an d'experice !</small>
             </article>
 
             <article className='about__card'>
-            <CgAwards className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1 an d'experice !</small>
+            <FiUsers className='about__icon'/>
+              <h5>Clients</h5>
+              <small>1 client</small>
             </article>
 
             <article className='about__card'>
-            <CgAwards className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1 an d'experice !</small>
+            <VscFolderLibrary className='about__icon'/>
+              <h5>Projets</h5>
+              <small>1 projet</small>
             </article>
 
           </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat cumque quibusdam dolores asperiores odit sequi repellat possimus minus maiores iste culpa, omnis voluptatibus provident modi nemo doloremque quod fugit incidunt libero a sint similique architecto? Voluptatibus tempora maxime cum nam blanditiis tempore eaque, quisquam culpa aperiam repellendus pariatur deserunt asperiores!</p>
+
+          <a href="#contact" className='btn btn-primary'>Contactez-nous</a>
         </div>
       </div>
     </section>
